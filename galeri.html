@@ -1,25 +1,184 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Galeri - CleanWash Laundry</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="nav">
-        <div class="logo">CleanWash</div>
-        <ul class="nav-links">
-          <li><a href="index.html">Beranda</a></li>
-          <li><a href="tentang_kami.html">Tentang</a></li>
-          <li><a href="layanan.html">Layanan</a></li>
-          <li><a href="galeri.html">Galeri</a></li>
-          <li><a href="kontak.html">Kontak</a></li>
-        </ul>
-      </nav>
-    </header>
 
-    
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CleanWash Laundry</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <style>
+    .head-title  {
+      text-align: center;
+      margin-bottom: 60px;
+
+    }
+    .head-title .title{
+      font-size: 30px;
+      margin-bottom: 10px;
+      color: rgba(73, 177, 200, 0.9);
+    }
+
+    .head-title .subtitle {
+      font-size: 16px;
+    }
+
+    .gallery-grid{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      align-content: center;
+      place-content: center;
+      justify-content: center;
+      place-items: center;
+    }
+    .gallery-card.galery {
+      /* padding: ; */
+      padding-bottom: 0;
+      overflow: hidden;
+      border: 1px solid #ccc;
+      overflow: hidden;
+      border-radius: 18px;
+      transition: .3s linear all;
+    }
+    .gallery-card:hover {
+      /* padding: ; */
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+
+    .gallery-card .card-body{
+        padding: 20px;
+    }
+    .gallery-card .card-body .card-title {
+      font-size: 25px;
+      margin-bottom: 10px;
+      text-align: left;
+      color: rgba(73, 177, 200, 0.9);
+    }
+    .gallery-card .card-body p.card-description {
+      font-size: 14px;
+    }
+
+    .img-container {
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+      /* border-radius: 8px; */
+
+    }
+    .img-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <div class="logo">CleanWash</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="tentang_kami.html">Tentang Kami</a></li>
+        <li><a href="harga.html">Harga</a></li>
+        <li><a href="galeri.html">Galeri</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <div id="layanan" class="page-container">
+    <div class="head-title">
+      <h2 class="title">Galeri ClleanWash Laundry</h2>
+      <p class="subtitle">Nerikut Beberapa tampilan area kerja, Proses Loundry, dan Hasil Pelayanan Kami</p>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-card galery" style="text-align: left !important;">
+        <div class="card-head">
+          <div class="img-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgpVmPNe_06rBq6imdYzN2OzUa2YrrNUPM0w&s" alt="Layanan 1" class="card-image" />
+          </div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Area Kerja Kami</h3>
+          <p class="card-description">
+            Area kerja yang bersih dan terorganisir untuk memastikan kualitas layanan terbaik.
+          </p>
+        </div>
+      </div>
+          <div class="gallery-card galery" style="text-align: left !important;">
+            <div class="card-head">
+              <div class="img-container">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgpVmPNe_06rBq6imdYzN2OzUa2YrrNUPM0w&s"
+                  alt="Layanan 1" class="card-image" />
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Area Kerja Kami</h3>
+              <p class="card-description">
+                Area kerja yang bersih dan terorganisir untuk memastikan kualitas layanan terbaik.
+              </p>
+            </div>
+          </div>
+              <div class="gallery-card galery" style="text-align: left !important;">
+                <div class="card-head">
+                  <div class="img-container">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgpVmPNe_06rBq6imdYzN2OzUa2YrrNUPM0w&s"
+                      alt="Layanan 1" class="card-image" />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">Area Kerja Kami</h3>
+                  <p class="card-description">
+                    Area kerja yang bersih dan terorganisir untuk memastikan kualitas layanan terbaik.
+                  </p>
+                </div>
+              </div>
+                  <div class="gallery-card galery" style="text-align: left !important;">
+                    <div class="card-head">
+                      <div class="img-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgpVmPNe_06rBq6imdYzN2OzUa2YrrNUPM0w&s"
+                          alt="Layanan 1" class="card-image" />
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title">Area Kerja Kami</h3>
+                      <p class="card-description">
+                        Area kerja yang bersih dan terorganisir untuk memastikan kualitas layanan terbaik.
+                      </p>
+                    </div>
+                  </div>
+                      <div class="gallery-card galery" style="text-align: left !important;">
+                        <div class="card-head">
+                          <div class="img-container">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgpVmPNe_06rBq6imdYzN2OzUa2YrrNUPM0w&s"
+                              alt="Layanan 1" class="card-image" />
+                          </div>
+                        </div>
+                        <div class="card-body">
+                          <h3 class="card-title">Area Kerja Kami</h3>
+                          <p class="card-description">
+                            Area kerja yang bersih dan terorganisir untuk memastikan kualitas layanan terbaik.
+                          </p>
+                        </div>
+                      </div>
+       
+     
+    </div>
+  </div>
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">CleanWash</div>
+      <p class="footer-copy">
+        &copy; 2026 CleanWash Laundry. All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+</body>
+
 </html>
